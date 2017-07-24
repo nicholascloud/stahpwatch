@@ -6,7 +6,7 @@ require('moment-duration-format');
 const argv = require('minimist')(process.argv.slice(2));
 
 const usage = function () {
-    console.info('usage: node src/index.js [--duration=#]');
+    console.info('usage: stahpwatch [--duration=#seconds]');
 };
 
 if (argv.help) {
